@@ -1,5 +1,5 @@
 import React from 'react';
-import { Home, FolderVideo, Factory, Settings } from 'lucide-react';
+import { Home, Video, Image as ImageIcon, Settings } from 'lucide-react';
 
 export default function BottomNavBar() {
   return (
@@ -10,11 +10,11 @@ export default function BottomNavBar() {
           <span className="text-sm hidden sm:inline">Home</span>
         </a>
         <a href="#creations" className="flex items-center gap-2 hover:text-white/90">
-          <FolderVideo className="h-5 w-5" />
+          <Video className="h-5 w-5" />
           <span className="text-sm hidden sm:inline">Creations</span>
         </a>
         <a href="#brand" className="flex items-center gap-2 hover:text-white/90">
-          <Factory className="h-5 w-5" />
+          <ImageIcon className="h-5 w-5" />
           <span className="text-sm hidden sm:inline">Brand</span>
         </a>
         <a href="#settings" className="flex items-center gap-2 hover:text-white/90">
